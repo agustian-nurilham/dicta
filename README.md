@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
+<p align="center">
+  <a href="http://materializecss.com/">
+    <img src="http://materializecss.com/res/materialize.svg" width="150">
+  </a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/agustian-nurilham/dicta/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<h3 align="center">MaterializeCSS</h3>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+  Materialize, a CSS Framework based on material design.
+  <br>
+  <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
+  <br>
+  <br>
+  <a href="https://travis-ci.org/Dogfalo/materialize">
+    <img src="https://travis-ci.org/Dogfalo/materialize.svg?branch=master" alt="Travis CI badge">
+  </a>
+  <a href="https://badge.fury.io/js/materialize-css">
+    <img src="https://badge.fury.io/js/materialize-css.svg" alt="npm version badge">
+  </a>
+  <a href="https://cdnjs.com/libraries/materialize">
+    <img src="https://img.shields.io/cdnjs/v/materialize.svg" alt="CDNJS version badge">
+  </a>
+  <a href="https://david-dm.org/Dogfalo/materialize">
+    <img src="https://david-dm.org/Dogfalo/materialize/status.svg" alt="dependencies Status badge">
+    </a>
+  <a href="https://david-dm.org/Dogfalo/materialize#info=devDependencies">
+    <img src="https://david-dm.org/Dogfalo/materialize/dev-status.svg" alt="devDependency Status badge">
+  </a>
+  <a href="https://gitter.im/Dogfalo/materialize">
+    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter badge">
+  </a>
+</p>
 
-### Markdown
+## Table of Contents
+- [Quickstart](#quickstart)
+- [Documentation](#documentation)
+- [Supported Browsers](#supported-browsers)
+- [Changelog](#changelog)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [Copyright and license](#copyright-and-license)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Quickstart:
+Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
 
-```markdown
-Syntax highlighted code block
+- [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub. ([Beta](https://github.com/Dogfalo/materialize/releases/))
+- Clone the repo: `git clone https://github.com/Dogfalo/materialize.git` (Beta: `git clone -b v1-dev https://github.com/Dogfalo/materialize.git`)
+- Include the files via [cdnjs](https://cdnjs.com/libraries/materialize). More [here](http://materializecss.com/getting-started.html). ([Beta](https://cdnjs.com/libraries/materialize/1.0.0-beta))
+- Install with [npm](https://www.npmjs.com): `npm install materialize-css` (Beta: `npm install materialize-css@next`)
+- Install with [Bower](https://bower.io): `bower install materialize` ([DEPRECATED](https://bower.io/blog/2017/how-to-migrate-away-from-bower/))
+- Install with [Atmosphere](https://atmospherejs.com): `meteor add materialize:materialize` (Beta: `meteor add materialize:materialize@=1.0.0-beta`)
 
-# Header 1
-## Header 2
-### Header 3
+## Documentation
+The documentation can be found at <http://materializecss.com>. To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer.
 
-- Bulleted
-- List
+### Running documentation locally
+Run these commands to set up the documentation:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+git clone https://github.com/Dogfalo/materialize
+cd materialize
+npm install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.
 
-### Jekyll Themes
+### Documentation for previous releases
+Previous releases and their documentation are available for [download](https://github.com/Dogfalo/materialize/releases).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/agustian-nurilham/dicta/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Supported Browsers:
+Materialize is compatible with:
 
-### Support or Contact
+- Chrome 35+
+- Firefox 31+
+- Safari 9+
+- Opera
+- Edge
+- IE 11+
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Changelog
+For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
+
+## Testing
+We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](CONTRIBUTING.md#jasmine-testing-guide).
+
+## Contributing
+Check out the [CONTRIBUTING document](CONTRIBUTING.md) in the root of the repository to learn how you can contribute. You can also browse the [help-wanted](https://github.com/Dogfalo/materialize/labels/help-wanted) tag in our issue tracker to find things to do.
+
+## Copyright and license
+Code Copyright 2018 Materialize. Code released under the MIT license.
