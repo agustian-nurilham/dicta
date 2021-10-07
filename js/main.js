@@ -46,7 +46,7 @@ function mouseParallax(id, left, top, mouseX, mouseY, speed) {
 
 //form login--------------------------------------------------------------------------------------------------------------------------------------------------------
 function check(form) {
-  if (form.pass.value == "dicta") {
+  if (form.pass.value == "yourpanda") {
     $(".opening").addClass("dnone");
     $("body").removeClass("hiden-scroll");
     $(window).scrollTop(0);
